@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amna Tanveer — Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="dark">
+
+<div class="noise"></div>
+
+<header class="site-header">
+  <a href="#top" class="logo">AT<span class="dot">.</span></a>
+  <nav class="nav">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#work">Work</a>
+    <a href="#design">Design</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button id="themeToggle" class="theme-toggle" aria-label="Toggle black and white mode" aria-pressed="false">
+    <span class="toggle-track">
+      <span class="toggle-thumb"></span>
+    </span>
+    <span class="toggle-label">B/W</span>
+  </button>
+  <button class="nav-burger" id="navBurger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow mono">$ whoami</p>
+      <h1 class="hero-title">
+        Amna Tanveer
+      </h1>
+      <p class="hero-role">
+        <span class="type-target" id="typeTarget"></span><span class="cursor">_</span>
+      </p>
+      <p class="hero-desc">
+        Software Engineer building at the intersection of
+        <strong>full-stack development</strong> and <strong>human-centered design</strong>.
+        I ship products end to end — research, interface, code.
+      </p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">See my work</a>
+        <a href="https://github.com/Amnatanveermalik" target="_blank" rel="noopener" class="btn btn-outline">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.42 7.86 10.96.57.1.79-.25.79-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.87-1.36-3.87-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.16 0 1.56-.01 2.81-.01 3.19 0 .3.21.66.8.55C20.71 21.41 24 17.09 24 12c0-6.35-5.15-11.5-12-11.5Z"/></svg>
+          GitHub
+        </a>
+      </div>
+      <div class="hero-meta mono">
+        <span>Rawalpindi, PK</span>
+        <span class="sep">/</span>
+        <span>NUML,Isl — Software Engineering</span>
+      </div>
+    </div>
+    <div class="hero-orb" aria-hidden="false">
+      <div class="photo-frame">
+        <img src="PHOTO.png" alt="Amna Tanveer" class="profile-img"
+             onerror="this.style.display='none'; this.parentElement.classList.add('img-missing');">
+        <div class="photo-placeholder mono">Add<br>PHOTO.png</div>
+      </div>
+      <svg class="wave-svg" viewBox="0 0 500 120" preserveAspectRatio="none" aria-hidden="true">
+        <path id="wavePath" d="M0,60 Q 20,20 40,60 T 80,60 T 120,60 T 160,60 T 200,60 T 240,60 T 280,60 T 320,60 T 360,60 T 400,60 T 440,60 T 480,60 T 520,60" fill="none" stroke="var(--wave-stroke)" stroke-width="3"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-head">
+      <p class="eyebrow mono">01 / About</p>
+      <h2>Curious by default, thorough by habit.</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-lead">
+        I'm a Software Engineer with a full-stack
+        background in Html, Css, JS, React, Node.js, and Express, and a growing focus on UX/UI —
+        wireframing, prototyping, and user research that developers can actually build from.
+        Recent internships took me through product management, deep learning, and machine
+        learning enough range to know how a product looks from every seat at the table.
+      </p>
+      <div class="fact-list">
+        <div class="fact"><span class="fact-k mono">Education</span><span class="fact-v">BS Software Engineering, NUML — 2022–2026</span></div>
+        <div class="fact"><span class="fact-k mono">Languages</span><span class="fact-v">English (Fluent), Urdu (Native)</span></div>
+        <div class="fact"><span class="fact-k mono">Interests</span><span class="fact-v">AI/ML, Human-Centered Design, UI/UX, Web Dev</span></div>
+        <div class="fact"><span class="fact-k mono">Based in</span><span class="fact-v">Rawalpindi, Pakistan</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="section-head">
+      <p class="eyebrow mono">02 / Experience</p>
+      <h2>Where I've worked.</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date mono">08/2025 – 11/2025</div>
+        <div class="timeline-body">
+          <h3>Product Management Intern</h3>
+          <p class="timeline-org">Buildables · Remote</p>
+          <p>Ran full product cycles end to end — research, feature definition, and UX design — for a mood-based Quran app concept.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date mono">08/2025 – 10/2025</div>
+        <div class="timeline-body">
+          <h3>Deep Learning Intern</h3>
+          <p class="timeline-org">Arch Technologies · Remote</p>
+          <p>Worked on applied deep learning tasks as part of a remote engineering internship.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date mono">07/2025 – 08/2025</div>
+        <div class="timeline-body">
+          <h3>Machine Learning Intern</h3>
+          <p class="timeline-org">Elevvo Pathways · Remote</p>
+          <p>Contributed to ML-focused projects and tasks during a remote internship track.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS / WORK -->
+  <section id="work" class="section">
+    <div class="section-head">
+      <p class="eyebrow mono">03 / Work</p>
+      <h2>Things I've built.</h2>
+    </div>
+
+    <div class="filter-bar mono" id="filterBar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="design">Design</button>
+      <button class="filter-btn" data-filter="db">Database</button>
+    </div>
+
+    <div class="project-grid" id="projectGrid">
+
+      <article class="project-card" data-tags="web ai">
+        <div class="project-top">
+          <span class="tag mono">Full Stack</span>
+        </div>
+        <h3>Expense Tracker</h3>
+        <p>MERN expense tracker with structured categories for logging and visualizing daily, monthly, and yearly spending. Built with a scalable architecture, secure data storage, and a UI designed to hold up across devices.</p>
+        <div class="project-stack mono">MongoDB · Express · React · Node.js</div>
+      </article>
+
+      <article class="project-card" data-tags="web">
+        <div class="project-top">
+          <span class="tag mono">Wellness · Web</span>
+        </div>
+        <h3>Digi Detox &amp; Nature Detox</h3>
+        <p>Two digital-detox wellness sites sharing a calm green-gradient identity, with meditation timers built to encourage users away from the screen.</p>
+        <div class="project-stack mono">HTML · CSS · JavaScript</div>
+      </article>
+
+      <article class="project-card" data-tags="web">
+        <div class="project-top">
+          <span class="tag mono">Web</span>
+        </div>
+        <h3>Quiz Game Web App</h3>
+        <p>Interactive quiz application for students and teachers, built with a PHP backend.</p>
+        <div class="project-stack mono">HTML · CSS · JS · PHP</div>
+      </article>
+
+      <article class="project-card" data-tags="db">
+        <div class="project-top">
+          <span class="tag mono">Database</span>
+        </div>
+        <h3>Hospital DBMS</h3>
+        <p>A database system handling full CRUD operations for managing hospital records.</p>
+        <div class="project-stack mono">SQL</div>
+      </article>
+
+      <article class="project-card" data-tags="db">
+        <div class="project-top">
+          <span class="tag mono">Database</span>
+        </div>
+        <h3>Clinic Patient Management System</h3>
+        <p>A three-tier DBMS project for bulk insert and CRUD operations on patient records, built with a form-driven interface.</p>
+        <div class="project-stack mono">C# · Visual Studio · MySQL</div>
+      </article>
+
+      <article class="project-card" data-tags="db">
+        <div class="project-top">
+          <span class="tag mono">Systems</span>
+        </div>
+        <h3>Bank Account System</h3>
+        <p>Account management system using file handling and core data structures &amp; algorithms.</p>
+        <div class="project-stack mono">C++</div>
+      </article>
+
+      <article class="project-card" data-tags="design">
+        <div class="project-top">
+          <span class="tag mono">Documentation</span>
+        </div>
+        <h3>Crack Detection in Concrete via AI Drones</h3>
+        <p>Software Requirements Specification for an AI-drone-based concrete crack detection system.</p>
+        <div class="project-stack mono">S.R.S · AI</div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- DESIGN / FIGMA -->
+  <section id="design" class="section">
+    <div class="section-head">
+      <p class="eyebrow mono">04 / Design</p>
+      <h2>UX/UI &amp; Figma work.</h2>
+      <p class="section-sub">Research, wireframes, and interface design — built to be handed straight to a developer.</p>
+    </div>
+
+    <div class="figma-grid">
+
+      <a class="figma-card" href="https://www.figma.com/design/yLOA8mrf8uLDB6D6Eog8jW/hypervoice?node-id=0-1&p=f&t=D9x3oDDkNxXc5QG1-0" target="_blank" rel="noopener">
+        <div class="figma-thumb figma-thumb-1" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" class="figma-mark">
+            <path d="M8 24a4 4 0 0 0 4-4v-4H8a4 4 0 1 0 0 8Z"/>
+            <path d="M4 12a4 4 0 0 1 4-4h4v8H8a4 4 0 0 1-4-4Z"/>
+            <path d="M4 4a4 4 0 0 1 4-4h4v8H8a4 4 0 0 1-4-4Z"/>
+            <path d="M12 0h4a4 4 0 1 1 0 8h-4V0Z"/>
+            <path d="M20 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/>
+          </svg>
+        </div>
+        <div class="figma-body">
+          <h3>HyperVoice</h3>
+          <p>Interface design for an AI hypertension-detection app built on acoustic speech analysis — grounded in user research, survey work, and a full UX case study for my final-year project.</p>
+          <span class="figma-link mono">View on Figma ↗</span>
+        </div>
+      </a>
+
+      <a class="figma-card" href="https://www.figma.com/design/lKM9ZIjakwDuhlOGzmg8BJ/Dine-Delight-Restaurant-Reservation-App?node-id=0-1&p=f&t=Tlt4jtSuBOhmfcpY-0" target="_blank" rel="noopener">
+        <div class="figma-thumb figma-thumb-2" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" class="figma-mark">
+            <path d="M8 24a4 4 0 0 0 4-4v-4H8a4 4 0 1 0 0 8Z"/>
+            <path d="M4 12a4 4 0 0 1 4-4h4v8H8a4 4 0 0 1-4-4Z"/>
+            <path d="M4 4a4 4 0 0 1 4-4h4v8H8a4 4 0 0 1-4-4Z"/>
+            <path d="M12 0h4a4 4 0 1 1 0 8h-4V0Z"/>
+            <path d="M20 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/>
+          </svg>
+        </div>
+        <div class="figma-body">
+          <h3>Dine Delight</h3>
+          <p>A friendly, user-first restaurant app UI — from browsing to ordering — designed end to end in Figma.</p>
+          <span class="figma-link mono">View on Figma ↗</span>
+        </div>
+      </a>
+
+      <a class="figma-card" href="https://www.figma.com/design/XJK5BJFybae1NKmkbs8rDm/quran-app-hifi?node-id=0-1&p=f&t=Yq97PeMjnMavZpTU-0" target="_blank" rel="noopener">
+        <div class="figma-thumb figma-thumb-3" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" class="figma-mark">
+            <path d="M8 24a4 4 0 0 0 4-4v-4H8a4 4 0 1 0 0 8Z"/>
+            <path d="M4 12a4 4 0 0 1 4-4h4v8H8a4 4 0 0 1-4-4Z"/>
+            <path d="M4 4a4 4 0 0 1 4-4h4v8H8a4 4 0 0 1-4-4Z"/>
+            <path d="M12 0h4a4 4 0 1 1 0 8h-4V0Z"/>
+            <path d="M20 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/>
+          </svg>
+        </div>
+        <div class="figma-body">
+          <h3>The Quran App</h3>
+          <p>Product research, feature definition, and interface design for a mood-based Ayah recommendation concept, built during my Buildables internship.</p>
+          <span class="figma-link mono">View on Figma ↗</span>
+        </div>
+      </a>
+
+      <a class="figma-card" href="https://www.figma.com/design/282ydRLmVFumNfsIg5Rz3Z/cryptoZombie-Mobile-App?node-id=0-1&p=f&t=v7jp3eI2BSGKpKQI-0" target="_blank" rel="noopener">
+        <div class="figma-thumb figma-thumb-4" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" class="figma-mark">
+            <path d="M8 24a4 4 0 0 0 4-4v-4H8a4 4 0 1 0 0 8Z"/>
+            <path d="M4 12a4 4 0 0 1 4-4h4v8H8a4 4 0 0 1-4-4Z"/>
+            <path d="M4 4a4 4 0 0 1 4-4h4v8H8a4 4 0 0 1-4-4Z"/>
+            <path d="M12 0h4a4 4 0 1 1 0 8h-4V0Z"/>
+            <path d="M20 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/>
+          </svg>
+        </div>
+        <div class="figma-body">
+          <h3>CryptoZombies Mobile App</h3>
+          <p>Mobile app UI design for a CryptoZombies-inspired experience — screen flows and interaction design built out in Figma.</p>
+          <span class="figma-link mono">View on Figma ↗</span>
+        </div>
+      </a>
+
+      <a class="figma-card" href="https://www.figma.com/design/sNO37FPefSNzapj6L5EDlH/Puzzle-quiz-Game?node-id=0-1&p=f&t=1aOwGP0eUlnc7cS1-0" target="_blank" rel="noopener">
+        <div class="figma-thumb figma-thumb-5" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" class="figma-mark">
+            <path d="M8 24a4 4 0 0 0 4-4v-4H8a4 4 0 1 0 0 8Z"/>
+            <path d="M4 12a4 4 0 0 1 4-4h4v8H8a4 4 0 0 1-4-4Z"/>
+            <path d="M4 4a4 4 0 0 1 4-4h4v8H8a4 4 0 0 1-4-4Z"/>
+            <path d="M12 0h4a4 4 0 1 1 0 8h-4V0Z"/>
+            <path d="M20 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/>
+          </svg>
+        </div>
+        <div class="figma-body">
+          <h3>Puzzle Quiz Game</h3>
+          <p>UI design for a puzzle-style quiz game — screen layouts and interaction flow designed in Figma.</p>
+          <span class="figma-link mono">View on Figma ↗</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="section-head">
+      <p class="eyebrow mono">05 / Skills</p>
+      <h2>Toolkit.</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4 class="mono">Frontend</h4>
+        <div class="pill-row">
+          <span class="pill">React</span><span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4 class="mono">Backend</h4>
+        <div class="pill-row">
+          <span class="pill">Node.js</span><span class="pill">Express</span><span class="pill">PHP</span><span class="pill">MongoDB</span><span class="pill">MySQL</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4 class="mono">Programming Languages</h4>
+        <div class="pill-row">
+          <span class="pill">JavaScript</span><span class="pill">Python</span><span class="pill">Java</span><span class="pill">C++</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4 class="mono">Design &amp; Product</h4>
+        <div class="pill-row">
+          <span class="pill">Figma</span><span class="pill">Canva</span><span class="pill">Product Design</span><span class="pill">Product Management</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4 class="mono">Tools</h4>
+        <div class="pill-row">
+          <span class="pill">MS Office</span><span class="pill">VS Code</span></span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4 class="mono">Soft Skills</h4>
+        <div class="pill-row">
+          <span class="pill">Adaptability</span><span class="pill">Attention to Detail</span><span class="pill">Critical Thinking</span><span class="pill">Teamwork</span><span class="pill">Time Management</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS + VOLUNTEERING -->
+  <section class="section split-section">
+    <div class="split-col">
+      <p class="eyebrow mono">06 / Certifications</p>
+      <ul class="plain-list">
+        <li><strong>Forward Program</strong> — McKinsey &amp; Company</li>
+        <li><strong>Software Engineering Job Simulation</strong> — Accenture Nordics, via Forage</li>
+      </ul>
+    </div>
+    <div class="split-col">
+      <p class="eyebrow mono">07 / Volunteering</p>
+      <ul class="plain-list">
+        <li>Organized a mental health awareness campaign across multiple departments at NUML.</li>
+        <li>Conducted a structured survey on mental health perceptions and needs among diverse student groups.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="section-head">
+      <p class="eyebrow mono">08 / Contact</p>
+      <h2>Let's build something.</h2>
+      <p class="section-sub">Open to software engineering, full-stack, and UX/UI roles.</p>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:amnatanveer1183@gmail.com" class="contact-link">
+        <span class="contact-k mono">Email</span>
+        <span class="contact-v">amnatanveer1183@gmail.com</span>
+      </a>
+      <a href="https://linkedin.com/in/amna-tanveer-7a63a0250" target="_blank" rel="noopener" class="contact-link">
+        <span class="contact-k mono">LinkedIn</span>
+        <span class="contact-v">amna-tanveer-7a63a0250</span>
+      </a>
+      <a href="https://github.com/Amnatanveermalik" target="_blank" rel="noopener" class="contact-link">
+        <span class="contact-k mono">GitHub</span>
+        <span class="contact-v">Amnatanveermalik</span>
+      </a>
+      
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p class="mono">Built by Amna Tanveer · Rawalpindi © 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
