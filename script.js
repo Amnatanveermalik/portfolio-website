@@ -1,4 +1,3 @@
-// ===== Theme toggle (black / white base, purple accent stays constant) =====
 const themeToggle = document.getElementById('themeToggle');
 const body = document.body;
 
@@ -8,7 +7,6 @@ function applyTheme(theme){
   try{ localStorage_safeSet(theme); }catch(e){}
 }
 
-// no localStorage in this environment's artifacts guidance, so we keep it in-memory only
 let currentTheme = 'dark';
 function localStorage_safeSet(){ /* intentionally no-op: state kept in memory only */ }
 
@@ -17,7 +15,6 @@ themeToggle.addEventListener('click', () => {
   applyTheme(currentTheme);
 });
 
-// ===== Typewriter effect in hero =====
 const roles = [
   'Software Engineer',
   'Full-Stack Developer',
@@ -48,7 +45,7 @@ function typeLoop(){
 }
 typeLoop();
 
-// ===== Project filter =====
+
 const filterBar = document.getElementById('filterBar');
 const cards = document.querySelectorAll('.project-card');
 
@@ -65,7 +62,7 @@ filterBar.addEventListener('click', (e) => {
   });
 });
 
-// ===== Mobile nav (simple show/hide fallback) =====
+
 const navBurger = document.getElementById('navBurger');
 const nav = document.querySelector('.nav');
 if(navBurger){
