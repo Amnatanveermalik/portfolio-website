@@ -307,6 +307,9 @@ h1,h2,h3,h4{
 .figma-thumb-3{ background: linear-gradient(135deg, #c4b5fd, #6d28d9); }
 .figma-thumb-4{ background: linear-gradient(135deg, #4c1d95, #a78bfa); }
 .figma-thumb-5{ background: linear-gradient(135deg, #7c3aed, #c4b5fd); }
+.figma-thumb-6{ background: linear-gradient(135deg, #6d28d9, #ddd6fe); }
+.figma-thumb-7{ background: linear-gradient(135deg, #5b21b6, #a78bfa); }
+.figma-thumb-8{ background: linear-gradient(135deg, #8b5cf6, #4c1d95); }
 .figma-mark{ width: 34px; height: 34px; }
 .figma-body{ padding: 20px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .figma-body h3{ font-size: 1.05rem; }
